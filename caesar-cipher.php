@@ -67,14 +67,8 @@ function shift_character($shiftPositions, $character)
     return $GLOBALS['alphabet'][$NewAlphabetPosition];
 }
 
-echo(shift_encrypt(
-        '7',
-        "If he had anything confidential to say, he wrote it in cipher, that is, by so changing the order of the letters of the alphabet, that not a word could be made out."
-    ) . "<br>");
-echo(shift_encrypt(
-        '31',
-        "If he had anything confidential to say, he wrote it in cipher, that is, by so changing the order of the letters of the alphabet, that not a word could be made out."
-    ) . "<br>");
+echo(shift_encrypt('7', "MHHH") . "<br>");
+echo(shift_encrypt('32', "MHHH") . "<br>");
 echo(shift_encrypt('1', "a1bc") . "<br>");
 
 ?>
