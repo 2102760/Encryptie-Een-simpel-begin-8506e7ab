@@ -67,8 +67,6 @@ function shift_character($shiftPositions, $character)
     return $GLOBALS['alphabet'][$NewAlphabetPosition];
 }
 
-echo(shift_encrypt('7', "MHHH") . "<br>");
-echo(shift_encrypt('32', "MHHH") . "<br>");
-echo(shift_encrypt('1', "a1bc") . "<br>");
+echo(shift_encrypt(intval($argv[1]), $argv[2]));
 
 ?>
